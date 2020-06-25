@@ -1,0 +1,33 @@
+nav {
+    background: red;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.myul {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+}
+.myul a{
+    color: white;
+    text-decoration:none;
+    background: red;
+    padding: 20px;
+}
+
+
+.myul a:hover{
+    color:beige;
+    background-color: black;
+    padding: 20px;
+    transition: .5s;
+}
+
+
+

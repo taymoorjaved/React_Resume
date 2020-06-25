@@ -1,0 +1,15 @@
+.job-box{
+    margin: auto;
+    width: fit-content;
+    font-size: 19px;
+    padding: 31px;
+}
+
+
+.job-box h3{
+    color: red;
+}
+
+.job-box h4{
+    color: royalblue;
+}

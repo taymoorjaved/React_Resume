@@ -1,0 +1,62 @@
+.text-section {
+  margin: auto;
+  text-align: center;
+  background: beige;
+  color: red;
+  text-transform: capitalize;
+  padding: 160px;
+  font-size: 56px;
+}
+
+
+.experince-heading {
+    text-align: center;
+    color: white;
+    width: 63%;
+    margin: auto;
+    padding: 6px;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .blink{
+    background: red;
+    width: 63%;
+    margin: auto;
+    padding: 6px;
+  }
+
+.skills-container{
+  display: flex;
+  width: 63%;
+  margin: auto;
+}
+
+.skills-title{
+  flex: 1;
+}
+
+.skills-bar{
+  flex: 1;
+  margin-top: 31px;
+}
+
+
+.MuiLinearProgress-root {
+    height: 25px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+.blink {
+  width: auto;
+}
+.skills-container {
+  width: 84%;
+}
+}

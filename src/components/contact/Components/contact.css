@@ -1,0 +1,10 @@
+.text-section {
+    margin: auto;
+    text-align: center;
+    background: beige;
+    color: red;
+    text-transform: capitalize;
+    padding: 160px;
+    font-size: 56px;
+}
+
